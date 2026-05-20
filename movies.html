@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Clone - Movies</title>
+    
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+
+    
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-left">
+                    <a href="index.html" class="logo-link">
+                        <div class="logo">book<span>my</span>show</div>
+                    </a>
+                    <div class="search-wrapper">
+                        🔍 <input type="text" placeholder="Search for Movies, Events, Plays or Sports..." class="search-bar">
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <span class="city">Mumbai ▼</span>
+                    <button class="signin-btn">Sign in</button>
+                </div>
+            </div>
+        </nav>
+        <div class="sub-nav">
+            <div class="sub-nav-container">
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="movies.html" class="active">Movies</a>
+                    <a href="events.html">Events</a>
+                    <a href="plays.html">Plays</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <div class="layout-container dynamic-page">
+        
+        
+        <aside class="filters-sidebar">
+            <h3>Filters</h3>
+            
+            
+            <div class="filter-box">
+                <details open>
+                    <summary><h4>Languages</h4></summary>
+                    <div class="filter-tags">
+                        <span class="active">Hindi</span>
+                        <span>English</span>
+                        <span>Marathi</span>
+                        <span>Telugu</span>
+                        <span>Tamil</span>
+                        <span>Malayalam</span>
+                    </div>
+                </details>
+            </div>
+
+            
+            <div class="filter-box">
+                <details open>
+                    <summary><h4>Genres</h4></summary>
+                    <div class="filter-tags">
+                        <span>Action</span>
+                        <span>Sci-Fi</span>
+                        <span>Drama</span>
+                        <span>Comedy</span>
+                        <span>Thriller</span>
+                        <span>Adventure</span>
+                        <span>Mythology</span>
+                    </div>
+                </details>
+            </div>
+
+            
+            <div class="filter-box">
+                <details>
+                    <summary><h4>Format</h4></summary>
+                    <div class="filter-tags">
+                        <span>2D</span>
+                        <span>3D</span>
+                        <span>IMAX 3D</span>
+                        <span>4DX</span>
+                    </div>
+                </details>
+            </div>
+        </aside>
+
+        
+        <main class="movies-list">
+            <div class="results-header">
+                <h2>Movies In Mumbai</h2>
+                <div class="quick-chips">
+                    <span>Hindi ✕</span>
+                    <span>Action ✕</span>
+                    <button class="clear-all">Clear All</button>
+                </div>
+            </div>
+            
+            <div class="featured-highlights">
+                <div class="highlight-card">
+                    <h3>Premiering This Week</h3>
+                    <p>Catch the hottest new releases before the weekend sells out.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Fan Favorites</h3>
+                    <p>Top-rated films selected by our audience and critics alike.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Family Picks</h3>
+                    <p>Fun and heartwarming titles perfect for a memorable outing.</p>
+                </div>
+            </div>
+
+            <div class="movie-grid">
+                
+                <div class="movie-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=400&q=80" alt="Neon Horizons poster">
+                        <div class="card-overlay">
+                            <span class="rating">⭐ 8.9 <small>(120K Votes)</small></span>
+                        </div>
+                    </div>
+                    <h3>Neon Horizons</h3>
+                    <p class="genre-text">Sci-Fi / Action</p>
+                    <p class="languages-text">Hindi, English, Telugu</p>
+                </div>
+
+                
+                <div class="movie-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=400&q=80" alt="The Golden Age poster">
+                        <div class="card-overlay">
+                            <span class="rating">⭐ 9.1 <small>(85K Votes)</small></span>
+                        </div>
+                    </div>
+                    <h3>The Golden Age</h3>
+                    <p class="genre-text">Drama / History</p>
+                    <p class="languages-text">English, Hindi</p>
+                </div>
+
+                
+                <div class="movie-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=400&q=80" alt="Project Hail Mary poster">
+                        <div class="card-overlay">
+                            <span class="rating">⭐ 9.5 <small>(310K Votes)</small></span>
+                        </div>
+                    </div>
+                    <h3>Project Hail Mary</h3>
+                    <p class="genre-text">Sci-Fi / Adventure</p>
+                    <p class="languages-text">English, Hindi, Tamil</p>
+                </div>
+
+                
+                <div class="movie-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=400&q=80" alt="The Last Empire poster">
+                        <div class="card-overlay">
+                            <span class="rating">⭐ 8.6 <small>(45K Votes)</small></span>
+                        </div>
+                    </div>
+                    <h3>The Last Empire</h3>
+                    <p class="genre-text">Fantasy / Drama</p>
+                    <p class="languages-text">Hindi, Marathi</p>
+                </div>
+
+                
+                <div class="movie-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&w=400&q=80" alt="Midnight Chase poster">
+                        <div class="card-overlay">
+                            <span class="rating">⭐ 8.2 <small>(14K Votes)</small></span>
+                        </div>
+                    </div>
+                    <h3>Midnight Chase</h3>
+                    <p class="genre-text">Action / Thriller</p>
+                    <p class="languages-text">Hindi</p>
+                </div>
+
+                
+                <div class="movie-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=400&q=80" alt="Chronicles of Time poster">
+                        <div class="card-overlay">
+                            <span class="rating">⭐ 9.0 <small>(66K Votes)</small></span>
+                        </div>
+                    </div>
+                    <h3>Chronicles of Time</h3>
+                    <p class="genre-text">Adventure / Sci-Fi</p>
+                    <p class="languages-text">English, Tamil, Telugu</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1494441981669-65e983c73b2e?auto=format&fit=crop&w=400&q=80" alt="Echoes of Tomorrow poster">
+                        <div class="card-overlay">
+                            <span class="rating">⭐ 8.7 <small>(28K Votes)</small></span>
+                        </div>
+                    </div>
+                    <h3>Echoes of Tomorrow</h3>
+                    <p class="genre-text">Mystery / Thriller</p>
+                    <p class="languages-text">Hindi, English</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?auto=format&fit=crop&w=400&q=80" alt="Festival of Fire poster">
+                        <div class="card-overlay">
+                            <span class="rating">⭐ 8.4 <small>(19K Votes)</small></span>
+                        </div>
+                    </div>
+                    <h3>Festival of Fire</h3>
+                    <p class="genre-text">Drama / Romance</p>
+                    <p class="languages-text">Hindi, Marathi</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1491975747144-7eba0db5e2b9?auto=format&fit=crop&w=400&q=80" alt="Moonlit Sonata poster">
+                        <div class="card-overlay">
+                            <span class="rating">⭐ 9.2 <small>(73K Votes)</small></span>
+                        </div>
+                    </div>
+                    <h3>Moonlit Sonata</h3>
+                    <p class="genre-text">Romance / Drama</p>
+                    <p class="languages-text">English, Hindi</p>
+                </div>
+
+                <div class="movie-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=400&q=80" alt="Hidden Kingdom poster">
+                        <div class="card-overlay">
+                            <span class="rating">⭐ 8.8 <small>(40K Votes)</small></span>
+                        </div>
+                    </div>
+                    <h3>Hidden Kingdom</h3>
+                    <p class="genre-text">Fantasy / Adventure</p>
+                    <p class="languages-text">English, Telugu</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    
+    <footer class="main-footer">
+        <div class="footer-middle">
+            <div class="footer-wrapper">
+                <div class="footer-branding">
+                    <h2>book<span>my</span>show</h2>
+                </div>
+                <p class="footer-links-directory">
+                    Action Movies | Thriller Movies | Comedy Movies | Horror Movies | Romantic Movies | Adventure Movies
+                </p>
+                <p class="copyright">Copyright 2026 © Bigtree Entertainment Pvt. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

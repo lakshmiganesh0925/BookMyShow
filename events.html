@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Clone - Live Events</title>
+    
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+
+    
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-left">
+                    <a href="index.html" class="logo-link">
+                        <div class="logo">book<span>my</span>show</div>
+                    </a>
+                    <div class="search-wrapper">
+                        🔍 <input type="text" placeholder="Search for Live Concerts, Comedy, Workshops..." class="search-bar">
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <span class="city">Mumbai ▼</span>
+                    <button class="signin-btn">Sign in</button>
+                </div>
+            </div>
+        </nav>
+        <div class="sub-nav">
+            <div class="sub-nav-container">
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="movies.html">Movies</a>
+                    <a href="events.html" class="active">Events</a>
+                    <a href="plays.html">Plays</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <div class="layout-container dynamic-page">
+        
+        
+        <aside class="filters-sidebar">
+            <h3>Filters</h3>
+            
+            
+            <div class="filter-box">
+                <details open>
+                    <summary><h4>Category</h4></summary>
+                    <div class="filter-tags">
+                        <span class="active">Concerts</span>
+                        <span class="active">Comedy</span>
+                        <span>Workshops</span>
+                        <span>Exhibitions</span>
+                        <span>Food Festivals</span>
+                        <span>Kids</span>
+                    </div>
+                </details>
+            </div>
+
+            
+            <div class="filter-box">
+                <details open>
+                    <summary><h4>Date</h4></summary>
+                    <div class="filter-tags">
+                        <span>Today</span>
+                        <span>Tomorrow</span>
+                        <span>This Weekend</span>
+                    </div>
+                </details>
+            </div>
+
+            
+            <div class="filter-box">
+                <details>
+                    <summary><h4>Price Range</h4></summary>
+                    <div class="filter-tags">
+                        <span>Free</span>
+                        <span>0 - 500</span>
+                        <span>501 - 2000</span>
+                        <span>Above 2000</span>
+                    </div>
+                </details>
+            </div>
+        </aside>
+
+        
+        <main class="movies-list">
+            <div class="results-header">
+                <h2>Live Events In Mumbai</h2>
+                <div class="quick-chips">
+                    <span>Concerts ✕</span>
+                    <span>Comedy ✕</span>
+                    <button class="clear-all">Clear All</button>
+                </div>
+            </div>
+
+            <div class="featured-highlights">
+                <div class="highlight-card">
+                    <h3>Top Rated Experiences</h3>
+                    <p>Grab tickets for the highest rated events with exclusive seat upgrades.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Just Announced</h3>
+                    <p>New weekend shows and festivals added today — book before they sell out.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Family Friendly</h3>
+                    <p>Discover fun events for kids, parents, and the whole family in Mumbai.</p>
+                </div>
+            </div>
+
+            <div class="movie-grid">
+                
+                <div class="movie-card event-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=400&q=80" alt="Rock Festival 2026">
+                        <span class="event-pill badge-fast">Filling Fast</span>
+                    </div>
+                    <h3>Rock Festival 2026</h3>
+                    <p class="genre-text">Music Concerts</p>
+                    <p class="venue-text">MMRDA Grounds, BKC</p>
+                    <p class="price-text">₹999 onwards</p>
+                </div>
+
+                
+                <div class="movie-card event-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1514306191717-452ec28c7814?auto=format&fit=crop&w=400&q=80" alt="Standup Comedy Showcase">
+                    </div>
+                    <h3>Standup Comedy Showcase</h3>
+                    <p class="genre-text">Comedy Shows</p>
+                    <p class="venue-text">The Canvas Laugh Club</p>
+                    <p class="price-text">₹499 onwards</p>
+                </div>
+
+                
+                <div class="movie-card event-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=400&q=80" alt="Canvas Painting Workshop">
+                    </div>
+                    <h3>Canvas Painting Workshop</h3>
+                    <p class="genre-text">Art & Craft Workshops</p>
+                    <p class="venue-text">Social Offline, Colaba</p>
+                    <p class="price-text">₹1,200 includes materials</p>
+                </div>
+
+                
+                <div class="movie-card event-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=80" alt="Mumbai Street Food Expo">
+                        <span class="event-pill badge-trending">Trending 🔥</span>
+                    </div>
+                    <h3>Mumbai Street Food Expo</h3>
+                    <p class="genre-text">Food & Drinks</p>
+                    <p class="venue-text">Jio World Garden</p>
+                    <p class="price-text">Free Entry Registration</p>
+                </div>
+
+                
+                <div class="movie-card event-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=400&q=80" alt="Neon Electronic Odyssey">
+                    </div>
+                    <h3>Neon Electronic Odyssey</h3>
+                    <p class="genre-text">Music Concerts / EDM</p>
+                    <p class="venue-text">Nesco Center, Goregaon</p>
+                    <p class="price-text">₹1,499 onwards</p>
+                </div>
+
+                
+                <div class="movie-card event-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=400&q=80" alt="Shakespeare Reimagined">
+                    </div>
+                    <h3>Shakespeare Reimagined</h3>
+                    <p class="genre-text">Theatre & Plays</p>
+                    <p class="venue-text">Prithvi Theatre</p>
+                    <p class="price-text">₹350 onwards</p>
+                </div>
+
+                <div class="movie-card event-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?auto=format&fit=crop&w=400&q=80" alt="Sunset Yoga Festival">
+                        <span class="event-pill badge-sold">Limited Seats</span>
+                    </div>
+                    <h3>Sunset Yoga Festival</h3>
+                    <p class="genre-text">Wellness & Lifestyle</p>
+                    <p class="venue-text">Marine Drive Lawn</p>
+                    <p class="price-text">₹799 onwards</p>
+                </div>
+
+                <div class="movie-card event-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1515169067865-5387ec356754?auto=format&fit=crop&w=400&q=80" alt="Bollywood Dance Night">
+                    </div>
+                    <h3>Bollywood Dance Night</h3>
+                    <p class="genre-text">Dance Party</p>
+                    <p class="venue-text">Nessc Arena</p>
+                    <p class="price-text">₹650 onwards</p>
+                </div>
+
+                <div class="movie-card event-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=400&q=80" alt="Weekend Market Fiesta">
+                        <span class="event-pill badge-fast">New</span>
+                    </div>
+                    <h3>Weekend Market Fiesta</h3>
+                    <p class="genre-text">Markets & Exhibitions</p>
+                    <p class="venue-text">Phoenix Marketcity</p>
+                    <p class="price-text">Free Entry</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    
+    <footer class="main-footer">
+        <div class="footer-middle">
+            <div class="footer-wrapper">
+                <div class="footer-branding">
+                    <h2>book<span>my</span>show</h2>
+                </div>
+                <p class="footer-links-directory">
+                    Concerts in Mumbai | Comedy Shows in Mumbai | Workshops in Mumbai | Food Festivals in Mumbai | Art & Exhibition Events 
+                </p>
+                <p class="copyright">Copyright 2026 © Bigtree Entertainment Pvt. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

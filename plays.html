@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Clone - Plays & Theatre</title>
+    
+    <link rel="stylesheet" href="plays.css">
+</head>
+<body>
+
+    
+    <header class="main-header">
+        <nav class="top-nav">
+            <div class="wrapper">
+                <div class="left-nav">
+                    <a href="index.html" class="logo-link">
+                        <div class="logo">book<span>my</span>show</div>
+                    </a>
+                    <div class="search-box">
+                        <span>🔍</span>
+                        <input type="text" placeholder="Search for Plays, Theatre productions and artists...">
+                    </div>
+                </div>
+                <div class="right-nav">
+                    <div class="location">
+                        <span class="city">Mumbai ▼</span>
+                        <div class="location-menu">
+                            <a href="#">Mumbai</a>
+                            <a href="#">Delhi NCR</a>
+                            <a href="#">Bengaluru</a>
+                            <a href="#">Hyderabad</a>
+                        </div>
+                    </div>
+                    <button class="sign-btn">Sign in</button>
+                </div>
+            </div>
+        </nav>
+        <div class="sub-nav">
+            <div class="wrapper">
+                <div class="sub-left">
+                    <a href="index.html">Home</a>
+                    <a href="movies.html">Movies</a>
+                    <a href="events.html">Events</a>
+                    <a href="plays.html" class="active">Plays</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <div class="layout-container dynamic-page wrapper">
+        
+        
+        <aside class="filters-sidebar">
+            <h3>Filters</h3>
+            
+            
+            <div class="filter-box">
+                <details open>
+                    <summary><h4>Genre</h4></summary>
+                    <div class="filter-tags">
+                        <span class="active">Drama</span>
+                        <span>Classical</span>
+                        <span>Musical</span>
+                        <span>Comedy</span>
+                        <span>Tragedy</span>
+                    </div>
+                </details>
+            </div>
+
+            
+            <div class="filter-box">
+                <details open>
+                    <summary><h4>Language</h4></summary>
+                    <div class="filter-tags">
+                        <span>Hindi</span>
+                        <span>English</span>
+                        <span>Marathi</span>
+                        <span>Gujarati</span>
+                    </div>
+                </details>
+            </div>
+
+            
+            <div class="filter-box">
+                <details>
+                    <summary><h4>Format</h4></summary>
+                    <div class="filter-tags">
+                        <span>Digital Streaming</span>
+                        <span>On-Ground Theatre</span>
+                        <span>Monologues</span>
+                    </div>
+                </details>
+            </div>
+        </aside>
+
+        
+        <main class="movies-list">
+            <div class="results-header">
+                <h2>Theatre Productions & Plays</h2>
+                <div class="quick-chips">
+                    <span>Drama ✕</span>
+                    <button class="clear-all">Clear All</button>
+                </div>
+            </div>
+            
+            <div class="featured-highlights">
+                <div class="highlight-card">
+                    <h3>Best Sellers</h3>
+                    <p>Popular stage productions with the highest audience ratings this month.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Premium Experiences</h3>
+                    <p>Enjoy VIP seating and exclusive pre-show refreshments for select performances.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Critics’ Choice</h3>
+                    <p>Handpicked theatre shows recommended by critics and performing arts curators.</p>
+                </div>
+            </div>
+
+            <div class="movie-grid">
+                
+                <div class="movie-card production-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=400&q=80" alt="Shakespeare Reimagined">
+                        <span class="badge performance-tag">Classical</span>
+                    </div>
+                    <h3>Shakespeare Reimagined</h3>
+                    <p class="genre-text">Classical Drama</p>
+                    <p class="venue-text">Prithvi Theatre, Juhu</p>
+                    <p class="price-text">₹400 onwards</p>
+                </div>
+
+                
+                <div class="movie-card production-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=400&q=80" alt="The Broadway Symphony">
+                        <span class="badge performance-tag">Musical</span>
+                    </div>
+                    <h3>The Broadway Symphony</h3>
+                    <p class="genre-text">Musical Theatre</p>
+                    <p class="venue-text">NCPA: Theatre, Nariman Point</p>
+                    <p class="price-text">₹1,000 onwards</p>
+                </div>
+
+                
+                <div class="movie-card production-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1514306191717-452ec28c7814?auto=format&fit=crop&w=400&q=80" alt="Echoes in the Dark">
+                        <span class="badge alert-tag">Selling Fast</span>
+                    </div>
+                    <h3>Echoes in the Dark</h3>
+                    <p class="genre-text">Suspense / Contemporary Drama</p>
+                    <p class="venue-text">Royal Opera House</p>
+                    <p class="price-text">₹500 onwards</p>
+                </div>
+
+                
+                <div class="movie-card production-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=400&q=80" alt="The Urban Satirist">
+                        <span class="badge performance-tag">Comedy</span>
+                    </div>
+                    <h3>The Urban Satirist</h3>
+                    <p class="genre-text">Social Satire / Comedy</p>
+                    <p class="venue-text">St. Andrews Auditorium</p>
+                    <p class="price-text">₹350 onwards</p>
+                </div>
+
+                
+                <div class="movie-card production-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=400&q=80" alt="Epic Retold: Mahabharata">
+                    </div>
+                    <h3>Epic Retold: Mahabharata</h3>
+                    <p class="genre-text">Mythology / Historical</p>
+                    <p class="venue-text">Shanmukhananda Hall</p>
+                    <p class="price-text">₹600 onwards</p>
+                </div>
+
+                
+                <div class="movie-card production-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1514306191717-452ec28c7814?auto=format&fit=crop&w=400&q=80" alt="Conversations with Myself">
+                    </div>
+                    <h3>Conversations with Myself</h3>
+                    <p class="genre-text">Solo Monologue Drama</p>
+                    <p class="venue-text">The Hive Underground</p>
+                    <p class="price-text">₹250 onwards</p>
+                </div>
+
+                <div class="movie-card production-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=400&q=80" alt="Midnight Theatre Escape">
+                        <span class="badge performance-tag">Mystery</span>
+                    </div>
+                    <h3>Midnight Theatre Escape</h3>
+                    <p class="genre-text">Mystery / Dark Comedy</p>
+                    <p class="venue-text">Todi Mill Social</p>
+                    <p class="price-text">₹450 onwards</p>
+                </div>
+
+                <div class="movie-card production-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=400&q=80" alt="Katha Kalpana">
+                    </div>
+                    <h3>Katha Kalpana</h3>
+                    <p class="genre-text">Folk Theatre / Storytelling</p>
+                    <p class="venue-text">NCPA Experimental</p>
+                    <p class="price-text">₹320 onwards</p>
+                </div>
+
+                <div class="movie-card production-card">
+                    <div class="poster">
+                        <img src="https://images.unsplash.com/photo-1511688878356-df6f93e4b8fd?auto=format&fit=crop&w=400&q=80" alt="Rhythm of Rain">
+                        <span class="badge alert-tag">New</span>
+                    </div>
+                    <h3>Rhythm of Rain</h3>
+                    <p class="genre-text">Music & Dance Drama</p>
+                    <p class="venue-text">Nessc Studio</p>
+                    <p class="price-text">₹550 onwards</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="wrapper">
+                <div>
+                    <h3>Got a Show or Theater Script?</h3>
+                    <p>Partner with BookMyShow to manage your box office ticketing pipeline easily.</p>
+                </div>
+                <button class="sign-btn">List Your Show</button>
+            </div>
+        </div>
+        <div class="footer-content wrapper">
+            <h4>Theater Directory Bookings</h4>
+            <p>Drama Plays in Mumbai | Classical Operas in Mumbai | Musicals & Concerts | Hindi Experimental Plays | English Comedy Stage Acts</p>
+            <div class="footer-logo">
+                <h1>book<span>my</span>show</h1>
+                <p class="copyright">Copyright 2026 © Bigtree Entertainment Pvt. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
